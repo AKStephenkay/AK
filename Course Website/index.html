@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+
+	<title></title>
+	<meta charset="utf-8">
+	<meta lang="en-US">
+	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+ </style>
+</head>
+<body>
+<section class="header">
+	<nav>
+		<a href="#"><img src="img\AK web logo.png"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">SERVICES</a></li>
+				<li><a href="#">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+
+	</nav>
+
+	<div class="text-box">
+		<h1>Welcome to AK-DESIGNS</h1>
+		<p> We love you business as much as you do</p>
+		<a href="#" class="hero-btn">Get Started</a>
+	</div>
+
+</section>
+
+<!----- Services ------>
+
+<section class="Services">
+	<h1>Our Services</h1>
+	<p></p>
+</section>
+
+
+
+<!-----JavaScript for toggle Menu-------->
+<script type="text/javascript">
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0"
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px"
+	}
+</script>
+</body>
+</html>
